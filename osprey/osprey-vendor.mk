@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/osprey/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/motorola/osprey/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/osprey/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/osprey/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
@@ -40,6 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
@@ -103,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -127,7 +133,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+
+PRODUCT_PACKAGES += \
+    libHevcSwDecoder

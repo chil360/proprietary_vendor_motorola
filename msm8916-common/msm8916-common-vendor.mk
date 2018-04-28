@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/motorola/msm8916-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/msm8916-common/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/motorola/msm8916-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/msm8916-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8916-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/msm8916-common/proprietary/etc/sap.conf:system/etc/sap.conf \

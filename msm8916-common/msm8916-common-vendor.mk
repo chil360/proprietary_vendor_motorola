@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:system/vendor/lib/libprotobuf-cpp-haxx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
@@ -146,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libfacenet-32.so:system/vendor/lib/libfacenet-32.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \

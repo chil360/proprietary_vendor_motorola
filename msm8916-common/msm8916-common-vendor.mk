@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \

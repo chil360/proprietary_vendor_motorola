@@ -20,16 +20,6 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter harpia lux merlin osprey surnia,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.fm@1.0
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/lib/vendor.qti.hardware.fm@1.0.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk

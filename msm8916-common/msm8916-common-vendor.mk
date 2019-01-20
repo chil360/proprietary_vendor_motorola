@@ -212,6 +212,7 @@ PRODUCT_PACKAGES += \
 
 # Peripheral Manager
 PRODUCT_COPY_FILES += \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so
 

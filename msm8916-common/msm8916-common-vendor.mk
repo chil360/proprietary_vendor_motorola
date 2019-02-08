@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/msm8916-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8916-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/motorola/msm8916-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qmi_motext_hook:system/vendor/bin/qmi_motext_hook \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \

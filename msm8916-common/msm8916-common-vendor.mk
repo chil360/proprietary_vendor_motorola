@@ -67,8 +67,8 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/motorola/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \

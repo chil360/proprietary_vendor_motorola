@@ -225,8 +225,7 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     QtiTelephonyService \
-    QtiTelephonyServicelibrary \
-    qti-telephony-common
+    QtiTelephonyServicelibrary
 
 # IMS
 PRODUCT_COPY_FILES += \

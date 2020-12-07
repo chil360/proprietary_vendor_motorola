@@ -19,9 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/osprey
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat:system/etc/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat \
-    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat \
-    vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/osprey/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/osprey/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
@@ -44,6 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/osprey/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/osprey/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/osprey/proprietary/vendor/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat:system/vendor/firmware/synaptics-boe-s2726-15100905-1f711a-osprey.tdat \
+    vendor/motorola/osprey/proprietary/vendor/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat:system/vendor/firmware/synaptics-inx-s2726br_t-15091801-1dc9a8-osprey.tdat \
+    vendor/motorola/osprey/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/osprey/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \

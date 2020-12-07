@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera firmware
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw
 
 # Display Color Calibration
 PRODUCT_COPY_FILES += \
@@ -152,8 +152,8 @@ PRODUCT_COPY_FILES += \
 
 # Graphics firmware
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
@@ -279,8 +279,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensorhub Firmware
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/sensorhubfw.bin:system/vendor/firmware/sensorhubfw.bin \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/sensorhubver.txt:system/vendor/firmware/sensorhubver.txt \
 
 # Thermal
 PRODUCT_COPY_FILES += \
@@ -298,10 +298,10 @@ PRODUCT_PACKAGES += \
 
 # Venus (media) firmware
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/motorola/msm8916-common/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt

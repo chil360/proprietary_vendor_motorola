@@ -20,7 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # ADSP
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so
 
 # Audio
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmot_sensorlistener.so:system/vendor/lib/libmot_sensorlistener.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so
 
@@ -84,10 +84,6 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/motorola/msm8916-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/msm8916-common/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
-    vendor/motorola/msm8916-common/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -95,8 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:system/vendor/etc/permissions/com.qti.location.sdk.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
@@ -110,10 +107,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/liblocationservice_jni.so:system/vendor/lib/liblocationservice_jni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:system/vendor/lib/vendor.qti.gnss@1.0.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     com.qti.location.sdk \
@@ -179,7 +179,7 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_COPY_FILES += \
-    vendor/motorola/msm8916-common/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \

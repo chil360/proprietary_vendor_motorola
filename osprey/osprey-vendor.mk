@@ -19,20 +19,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/osprey
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/osprey/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/motorola/osprey/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
-    vendor/motorola/osprey/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
-    vendor/motorola/osprey/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-    vendor/motorola/osprey/proprietary/lib/libjscore.so:system/lib/libjscore.so \
-    vendor/motorola/osprey/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
-    vendor/motorola/osprey/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/motorola/osprey/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/motorola/osprey/proprietary/lib/libmmcamera_lux_standardization.so:system/lib/libmmcamera_lux_standardization.so \
-    vendor/motorola/osprey/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
-    vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libadvalgcore.so:system/vendor/lib/libadvalgcore.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libjscore.so:system/vendor/lib/libjscore.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera_lux_standardization.so:system/vendor/lib/libmmcamera_lux_standardization.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmot-qc-fd-offline.so:system/vendor/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/osprey/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/osprey/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/osprey/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \

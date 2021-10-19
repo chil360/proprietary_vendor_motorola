@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmot-qc-fd-offline.so:system/vendor/lib/libmot-qc-fd-offline.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libnativehelper-v30.so:system/vendor/lib/libnativehelper-v30.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/osprey/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/osprey/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
